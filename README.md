@@ -1,9 +1,10 @@
 # StPedf
-StPedf: Cellular Spatial Trajectories
+StPedf: Cell Trajectory Inference of Spatial Transcriptomics via Spatial Proximity Embedding and Spatial Density-adaptive Fusion
 <img width="3402" height="2551" alt="论文框架图最新_07" src="https://github.com/user-attachments/assets/f1963298-c690-4f74-9781-83678581b6c2" />
 
 ## Requirements:
 You'll need to install the following packages in order to run the codes.
+```bash
 anndata==0.9.1
 scanpy==1.9.3
 pandas==2.2.3
@@ -32,3 +33,4 @@ sphinx==7.2.6
 sphinx-hoverxref==1.3.0
 sphinx-rtd-theme
 sphinx_gallery
+```
