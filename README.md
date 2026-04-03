@@ -81,7 +81,7 @@ StPedf/
     ├── axolotl brain regeneration after injury/
     ├── ICC/
     └── DLPFC/
-
+```
 To run the example notebooks, ensure that the data paths match the repository file structure.
 
 ## 🚀 Usage Example
