@@ -49,7 +49,6 @@ scikit-learn==1.2.2
 matplotlib==3.7.1
 seaborn==0.12.2
 igraph==0.11.8
-python-igraph==0.11.8
 harmonypy==0.0.10
 umap-learn==0.5.7
 squidpy==1.6.1
@@ -64,7 +63,7 @@ nbsphinx==0.9.3
 sphinx==7.2.6
 sphinx-hoverxref==1.3.0
 sphinx-rtd-theme==3.1.0
-sphinx_gallery
+sphinx-gallery
 pygam==0.10.1
 statsmodels==0.14.6
 ipywidgets==8.1.8
@@ -73,12 +72,15 @@ gudhi==3.11.0
 ```
 ## 📂 Data Preparation
 
-The repository includes example datasets under the `data/` folder:
+The repository includes example datasets with the following file structure:
 
-- `Simulated_dataset/`: Synthetic data with known ground truth, including linear and bifurcating trajectories
-- `axolotl brain regeneration`: D15 time point after injury
-- `ICC`: Intrahepatic cholangiocarcinoma primary tumor
-- `DLPFC`: Human dorsolateral prefrontal cortex (Visium)
+```text
+StPedf/
+├── Simulated_dataset/
+└── data/
+    ├── axolotl brain regeneration after injury/
+    ├── ICC/
+    └── DLPFC/
 
 To run the example notebooks, ensure that the data paths match the repository file structure.
 
