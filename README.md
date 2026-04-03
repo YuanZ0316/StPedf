@@ -15,6 +15,7 @@ We recommend using Python 3.9:
 ```bash
 conda create -n StPedf python=3.9
 conda activate StPedf
+'''
 ###2. Install PyTorch
 
 StPedf requires PyTorch 2.0.1 with CUDA 11.8 (or a CPU-only version).
