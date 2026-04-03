@@ -29,8 +29,8 @@ conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=
  ```
 For CPU-only:
 ```bash
-pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 ```
-
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+```
 ### 3. Install other dependencies
 
 Download requirements.txt from this repository and run:
@@ -71,7 +71,7 @@ POT==0.9.6
 gudhi==3.11.0
 ```
 ### 📂 Data Preparation
-```bash
+
 The repository includes example datasets under the data/ folder:
 
 Simulated_dataset/: Synthetic data with known ground truth, including linear and bifurcating trajectories
@@ -80,22 +80,29 @@ ICC: Intrahepatic cholangiocarcinoma primary tumor
 DLPFC: Human dorsolateral prefrontal cortex (Visium)
 
 To run the example notebooks, ensure that the data paths match the repository file structure.
-```
-### 🚀 Usage Example
+
+🚀 Usage Example
 
 The main example notebook is example.ipynb, which demonstrates a complete analysis pipeline:
 
 Load spatial transcriptomics data (simulated dataset)
+
 Preprocess the data and select highly variable genes
+
 Construct the spatial graph
+
 Train the StPedf model
+
 Build the adaptive transition matrix
+
 Infer pseudotime
+
 Compute the vector field and visualize trajectories
+
 Evaluate results against the ground truth
 
 You can also explore other notebooks:
 
-1.axolotl_brain_injury_D15_trajectory_analysis.ipynb — Axolotl brain regeneration
-2.icc2.ipynb — ICC tumor analysis
-3.DLPFC151673.ipynb — Human cortical layers
+ 1.axolotl_brain_injury_D15_trajectory_analysis.ipynb — Axolotl brain regeneration
+ 2.icc2.ipynb — ICC tumor analysis
+ 3.DLPFC151673.ipynb — Human cortical layers
