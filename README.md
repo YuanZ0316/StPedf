@@ -15,8 +15,8 @@ We recommend using Python 3.9:
 ```bash
 conda create -n StPedf python=3.9
 conda activate StPedf
-'''
-###2. Install PyTorch
+ ```
+### 2. Install PyTorch
 
 StPedf requires PyTorch 2.0.1 with CUDA 11.8 (or a CPU-only version).
 
@@ -24,20 +24,21 @@ Please visit the official PyTorch website
  to select the appropriate installation command for your system.
 
 For CUDA 11.8:
-
+```bash
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
-
+ ```
 For CPU-only:
+```bash
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 ```
 
-pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
-###3. Install other dependencies
+### 3. Install other dependencies
 
 Download requirements.txt from this repository and run:
-
+```bash
 pip install -r requirements.txt
-
+```
 The requirements.txt includes:
-
+```bash
 anndata==0.9.1
 scanpy==1.9.3
 pandas==2.2.3
@@ -68,9 +69,9 @@ statsmodels==0.14.6
 ipywidgets==8.1.8
 POT==0.9.6
 gudhi==3.11.0
-
-###📂 Data Preparation
-
+```
+### 📂 Data Preparation
+```bash
 The repository includes example datasets under the data/ folder:
 
 Simulated_dataset/: Synthetic data with known ground truth, including linear and bifurcating trajectories
@@ -79,8 +80,8 @@ ICC: Intrahepatic cholangiocarcinoma primary tumor
 DLPFC: Human dorsolateral prefrontal cortex (Visium)
 
 To run the example notebooks, ensure that the data paths match the repository file structure.
-
-###🚀 Usage Example
+```
+### 🚀 Usage Example
 
 The main example notebook is example.ipynb, which demonstrates a complete analysis pipeline:
 
