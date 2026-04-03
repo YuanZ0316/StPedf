@@ -79,7 +79,20 @@ The repository currently includes the following local dataset:
 StPedf/
 └── Simulated_dataset/
 ```
-The real datasets are not included in this repository because of their large size. Please download them from the links below and place them in the data/ directory before running the corresponding notebooks.
+Due to file size limitations, the real datasets are not included in this repository. Please download them separately before running the corresponding notebooks.
+
+1. Axolotl brain regeneration and DLPFC datasets
+
+These datasets are provided via Baidu Netdisk:
+
+Folder name: StPedf_data
+Link: https://pan.baidu.com/s/1oOV0vwgRD8gvk9BohfER1A?pwd=z556
+
+2. ICC dataset
+
+The primary tumor spatial transcriptomics (ST) data for intrahepatic cholangiocarcinoma (ICC) can be downloaded from the CNGBdb database:
+
+Accession number: CNP0002199
 
 ## 🚀 Usage Example
 
