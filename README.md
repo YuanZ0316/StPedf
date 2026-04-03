@@ -90,7 +90,7 @@ Link: https://pan.baidu.com/s/1oOV0vwgRD8gvk9BohfER1A?pwd=z556
 
 2. ICC dataset
 
-The primary tumor spatial transcriptomics (ST) data for intrahepatic cholangiocarcinoma (ICC) can be downloaded from the CNGBdb database:
+The primary tumor spatial transcriptomics (ST) data for intrahepatic cholangiocarcinoma (ICC) can be downloaded from the CNGBdb database.
 
 Accession number: CNP0002199
 
