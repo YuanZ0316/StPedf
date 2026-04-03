@@ -1,8 +1,9 @@
 # StPedf
 StPedf: Cell Trajectory Inference of Spatial Transcriptomics via Spatial Proximity Embedding and Spatial Density-adaptive Fusion
+
 StPedf is a Python framework for inferring cellular trajectories and vector fields from spatial transcriptomics data. It integrates graph-based spatial embedding, adaptive transition matrix construction, pseudotime estimation, and velocity field computation to uncover dynamic cellular processes in tissue architecture.
 <img width="1512" height="1134" alt="论文框架图最新_01" src="https://github.com/user-attachments/assets/19f094b8-6803-4041-91ec-08fd81ec0860" />
-# StPedf
+
 
 StPedf is a framework for spatial transcriptomics trajectory analysis. This repository provides installation instructions, example datasets, and notebooks demonstrating the complete analysis workflow.
 
@@ -70,39 +71,32 @@ ipywidgets==8.1.8
 POT==0.9.6
 gudhi==3.11.0
 ```
-### 📂 Data Preparation
+## 📂 Data Preparation
 
-The repository includes example datasets under the data/ folder:
+The repository includes example datasets under the `data/` folder:
 
-Simulated_dataset/: Synthetic data with known ground truth, including linear and bifurcating trajectories
-axolotl brain regeneration: D15 time point after injury
-ICC: Intrahepatic cholangiocarcinoma primary tumor
-DLPFC: Human dorsolateral prefrontal cortex (Visium)
+- `Simulated_dataset/`: Synthetic data with known ground truth, including linear and bifurcating trajectories
+- `axolotl brain regeneration`: D15 time point after injury
+- `ICC`: Intrahepatic cholangiocarcinoma primary tumor
+- `DLPFC`: Human dorsolateral prefrontal cortex (Visium)
 
 To run the example notebooks, ensure that the data paths match the repository file structure.
 
-🚀 Usage Example
+## 🚀 Usage Example
 
-The main example notebook is example.ipynb, which demonstrates a complete analysis pipeline:
+The main example notebook is `example.ipynb`, which demonstrates a complete analysis pipeline:
 
-Load spatial transcriptomics data (simulated dataset)
-
-Preprocess the data and select highly variable genes
-
-Construct the spatial graph
-
-Train the StPedf model
-
-Build the adaptive transition matrix
-
-Infer pseudotime
-
-Compute the vector field and visualize trajectories
-
-Evaluate results against the ground truth
+1. Load spatial transcriptomics data (simulated dataset)
+2. Preprocess the data and select highly variable genes
+3. Construct the spatial graph
+4. Train the StPedf model
+5. Build the adaptive transition matrix
+6. Infer pseudotime
+7. Compute the vector field and visualize trajectories
+8. Evaluate results against the ground truth
 
 You can also explore other notebooks:
 
- 1.axolotl_brain_injury_D15_trajectory_analysis.ipynb — Axolotl brain regeneration
- 2.icc2.ipynb — ICC tumor analysis
- 3.DLPFC151673.ipynb — Human cortical layers
+1. `1.axolotl_brain_injury_D15_trajectory_analysis.ipynb` — Axolotl brain regeneration
+2. `2.icc2.ipynb` — ICC tumor analysis
+3. `3.DLPFC151673.ipynb` — Human cortical layers
