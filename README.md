@@ -73,17 +73,13 @@ gudhi==3.11.0
 ```
 ## 📂 Data Preparation
 
-The repository includes example datasets with the following file structure:
+The repository currently includes the following local dataset:
 
 ```text
 StPedf/
-├── Simulated_dataset/
-└── data/
-    ├── axolotl brain regeneration after injury/
-    ├── ICC/
-    └── DLPFC/
+└── Simulated_dataset/
 ```
-To run the example notebooks, ensure that the data paths match the repository file structure.
+The real datasets are not included in this repository because of their large size. Please download them from the links below and place them in the data/ directory before running the corresponding notebooks.
 
 ## 🚀 Usage Example
 
