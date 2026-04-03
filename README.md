@@ -110,5 +110,4 @@ The main example notebook is `example.ipynb`, which demonstrates a complete anal
 You can also explore other notebooks:
 
 1. `1.axolotl_brain_injury_D15_trajectory_analysis.ipynb` — Axolotl brain regeneration
-2. `2.icc2.ipynb` — ICC tumor analysis
-3. `3.DLPFC151673.ipynb` — Human cortical layers
+2. `2.DLPFC151673.ipynb` — Human cortical layers
