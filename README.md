@@ -5,28 +5,28 @@ StPedf is a Python framework for inferring cellular trajectories and vector fiel
 📦 Installation
 1. Create and activate a conda environment
 We recommend using Python 3.9:
-```bash
+bash
 conda create -n StPedf python=3.9
-conda activate StPedf'''
+conda activate StPedf
 3. Install PyTorch
 StPedf requires PyTorch 2.0.1 with CUDA 11.8 (or CPU version). Visit PyTorch official website for your system configuration.
 
 For CUDA 11.8:
 
-'''bash
+bash
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia'''
 Or for CPU-only:
 
-'''bash
+bash
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2'''
 3. Install other dependencies
 Download the requirements.txt from this repository and run:
 
-'''bash
+bash
 pip install -r requirements.txt'''
 The requirements.txt includes:
 
-'''bash
+bash
 text
 anndata==0.9.1
 scanpy==1.9.3
