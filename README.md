@@ -2,31 +2,34 @@
 StPedf: Cell Trajectory Inference of Spatial Transcriptomics via Spatial Proximity Embedding and Spatial Density-adaptive Fusion
 StPedf is a Python framework for inferring cellular trajectories and vector fields from spatial transcriptomics data. It integrates graph-based spatial embedding, adaptive transition matrix construction, pseudotime estimation, and velocity field computation to uncover dynamic cellular processes in tissue architecture.
 <img width="1512" height="1134" alt="论文框架图最新_01" src="https://github.com/user-attachments/assets/19f094b8-6803-4041-91ec-08fd81ec0860" />
-📦 Installation
-1. Create and activate a conda environment
+## 📦 Installation
+
+### 1. Create and activate a conda environment
+
 We recommend using Python 3.9:
-bash
+
+```bash
 conda create -n StPedf python=3.9
 conda activate StPedf
-3. Install PyTorch
-StPedf requires PyTorch 2.0.1 with CUDA 11.8 (or CPU version). Visit PyTorch official website for your system configuration.
+2. Install PyTorch
+StPedf requires PyTorch 2.0.1 with CUDA 11.8 (or CPU version).
+Visit PyTorch official website for your system configuration.
 
 For CUDA 11.8:
 
 bash
-conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia'''
-Or for CPU-only:
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+For CPU-only:
 
 bash
-pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2'''
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 3. Install other dependencies
-Download the requirements.txt from this repository and run:
+Download requirements.txt from this repository and run:
 
 bash
-pip install -r requirements.txt'''
+pip install -r requirements.txt
 The requirements.txt includes:
 
-bash
 text
 anndata==0.9.1
 scanpy==1.9.3
@@ -57,8 +60,14 @@ pygam==0.10.1
 statsmodels==0.14.6
 ipywidgets==8.1.8
 POT==0.9.6
-gudhi==3.11.0'''
+gudhi==3.11.0
+4. Install StPedf
+Clone the repository and install in editable mode:
 
+bash
+git clone https://github.com/yourusername/StPedf.git
+cd StPedf
+pip install -e .
 📂 Data preparation
 The repository includes example datasets under the data/ folder:
 
