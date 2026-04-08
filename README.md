@@ -3,7 +3,6 @@ StPedf: Cell Trajectory Inference of Spatial Transcriptomics via Spatial Proximi
 
 StPedf is a Python framework for inferring cellular trajectories and vector fields from spatial transcriptomics data. It integrates graph-based spatial embedding, adaptive transition matrix construction, pseudotime estimation, and velocity field computation to uncover dynamic cellular processes in tissue architecture.
 
-<img width="3385" height="2140" alt="Figure 1" src="https://github.com/user-attachments/assets/5de7b370-b757-46a8-aa43-31fbc9a3ebb5" />
 
 
 
